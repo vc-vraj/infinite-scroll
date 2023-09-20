@@ -1,0 +1,12 @@
+<div class="main">
+    <div class="items">
+        <div *ngFor="let item of items$ | async">
+            <b>ID: </b> {{item.id}}<br>
+            <b>Title: </b>{{item.title}}<br>
+            <img src="{{item.thumbnailUrl}}" alt="">
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</div>
